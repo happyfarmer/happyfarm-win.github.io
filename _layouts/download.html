@@ -1,0 +1,190 @@
+---
+layout: default
+---
+
+{% assign strings = site.data.strings[page.lang] %}
+{% assign download = site.download | where:"lang",page.lang | reverse %}
+
+{% include navigation.html active="download" %}
+
+<div class="pg-title">
+    <div class="col-10-container">
+        <h1>Download</h1>
+    </div>
+</div>
+
+<div class="white-bg content-padding">
+    <div class="col-6-container">
+        <h3>This page is the only official source for installer downloads. Do not trust downloads from other sources.</h3>
+        <p>
+            Detailed <a href="https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL" target="_blank">Installation instructions</a> and <a href="https://github.com/Chia-Network/chia-blockchain" target="_blank">source code</a> can be found on Github.
+        </p>
+        <p>Don't know where to begin? Check out our <a href="https://github.com/Chia-Network/chia-blockchain/wiki/Beginners-Guide">Beginner's Guide</a> on the <a href="https://github.com/Chia-Network/chia-blockchain/wiki">Wiki</a>.
+        <p><em>Note: Windows installer does NOT support Windows 7!</em></p>
+    </div>
+</div>
+
+<div class="white-bg content-padding download-options">
+    <div class="col-8-container">
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/Setup-Win64.exe" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_windows_button }}</a>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta"><a href="https://download.chia.net/latest/Setup-Win64.exe.torrent">Torrent Download <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+                <p><em>No Windows 7 support</em></p>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.windows_checksum }}</code></span>
+            </div>
+        </div>
+
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/Setup-MacOS.dmg" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_macosintel_button }}</a>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta"><a href="https://download.chia.net/latest/Setup-MacOS.dmg.torrent">Torrent Download <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.macos_intel_checksum }}</code></span>
+            </div>
+        </div>
+
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/Setup-MacOS-arm64.dmg" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_macosm1_button }}</a>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta"><a href="https://download.chia.net/latest/Setup-MacOS-arm64.dmg.torrent">Torrent Download <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.macos_arm_checksum }}</code></span>
+            </div>
+        </div>
+
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/x86_64-Ubuntu-gui" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_debian_button }}</a>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta"><a href="https://download.chia.net/latest/x86_64-Ubuntu-gui.torrent">Torrent Download <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.x86_ubuntu_debian_checksum }}</code></span>
+            </div>
+        </div>
+
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/ARM64-Ubuntu-gui" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_debianarm_button }}</a>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta"><a href="https://download.chia.net/latest/ARM64-Ubuntu-gui.torrent">Torrent Download <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.arm64_ubuntu_debian_checksum }}</code></span>
+            </div>
+        </div>
+
+        <div class="download-option">
+            <div class="download-option-details download-option-button">
+                <a href="https://download.chia.net/latest/x86_64-Redhat-gui" target="_blank" rel="noreferrer noopener" class="button full-width-button">{{ strings.download_centosfedora_button }}</a>
+            </div>
+            <div class="download-option-details download-option-ver">
+                <h6>Version {{ site.data.checksums.current_version }} | 64 bit</h6>
+                <span class="chia-cta"><a href="https://download.chia.net/latest/x86_64-Redhat-gui.torrent">Torrent Download <img src="/img/ui-icons/download.svg" class="chia-icon ui-icon baseline-icon"></a></span>
+            </div>
+            <div class="download-option-details download-option-check">
+                <h6>SHA256 checksum:</h6>
+                <span><code>{{ site.data.checksums.x86_centos_redhat_checksum }}</code></span>
+            </div>
+        </div>
+
+        <div class="download-option verify-check">
+            <p class="chia-cta"><a href="/download/verify_checksum">How to Verify Checksum <img src="/img/ui-icons/arrow-right.svg" class="chia-icon ui-icon"></a></p>
+        </div>
+    </div>
+</div>
+
+<div class="white-bg content-padding">
+    <div class="col-8-container">
+        <div class="download-extras">
+            <div class="download-extra-option soft-shadow">
+                <h3>Other Platforms</h3>
+                <p>Python 3.7 or newer is required.</p>
+                <ul>
+                    <li><a href="https://github.com/Chia-Network/chia-blockchain/wiki/Raspberry-Pi" target="_blank">Raspberry Pi 4</a></li>
+                    <li><a href="https://github.com/orgs/Chia-Network/packages/container/package/chia" target="_blank">Docker</a></li>
+                    <li><a href="https://github.com/Chia-Network/chia-blockchain/wiki/FreeBSD-Install" target="_blank">FreeBSD</a></li>
+                    <li><a href="https://github.com/Chia-Network/chia-blockchain/wiki/Ubuntu-Binary-Install" target="_blank">Ubuntu Binary</a></li>
+                    <li><a href="https://github.com/Chia-Network/chia-blockchain/wiki/OpenBSD-Install" target="_blank">OpenBSD</a></li>
+                </ul>
+            </div>
+
+            <div class="download-extra-option soft-shadow">
+                <h3>Latest Beta</h3>
+                <p><em>Note: Beta builds are built on every merge to main and may contain bugs or other issues that are not present in tagged releases</em></p>
+                <ul>
+                    <li><a href="https://download.chia.net/beta/ChiaSetup-latest-beta.exe" target="_blank"> Windows </a></li>
+                    <li><a href="https://download.chia.net/beta/Chia-intel_latest_beta.dmg" target="_blank"> macOS Intel </a></li>
+                    <li><a href="https://download.chia.net/beta/Chia-arm64_latest_beta.dmg" target="_blank"> macOS M1 </a></li>
+                    <li><a href="https://download.chia.net/beta/chia-blockchain_amd64_latest_beta.deb" target="_blank"> Ubuntu/Debian </a></li>
+                    <li><a href="https://download.chia.net/beta/chia-blockchain_arm64_latest_beta.deb" target="_blank"> Ubuntu/Debian ARM </a></li>
+                    <li><a href="https://download.chia.net/beta/chia-blockchain-1.x86_64_latest_beta.rpm" target="_blank"> CentOS/Redhat </a></li>
+                </ul>
+            </div>
+
+            <div class="download-extra-option soft-shadow">
+                <h3><a name="light-wallet-beta"></a>Light Wallet Beta</h3>
+                <p> <b style="color:#FF0000">WARNING:</b><em> Do <b style="color:#FF0000">NOT </b> install this wallet on an active farming machine.
+                    If you do, then it will overwrite your current install and <b style="color:#FF0000"> YOU WILL NO LONGER BE FARMING! </b> In case that wasn’t clear enough, </em></b>
+                </p>
+                <p> <b style="color:#FF0000">DO NOT INSTALL THIS ON A MACHINE THAT IS ACTIVELY FARMING! </b></p>
+                <p><em>That said, our light wallet uses an electrum-style protocol to reduce syncing from hours to just minutes, or even seconds. It’s also our first wallet implementation supporting Chia Asset Tokens (CATs). We'll make this available to be used with on the same machine as a farmer in a future release. </em></p>
+                <p><em>If you do happen to ignore the above warning and overwrite your farmer, you can still get it back. Data for your farm and full node are not deleted. You can always re-run the Chia farming installer to return to farming, which will delete your light wallet.</em></p>
+                <ul>
+                    <li><a href="https://download.chia.net/cats-beta-installers/ChiaSetup-latest-cats-beta.exe" target="_blank"> Windows </a></li>
+                    <li><a href="https://download.chia.net/cats-beta-installers/Chia-intel_latest_cats_beta.dmg" target="_blank"> macOS Intel </a></li>
+                    <li><a href="https://download.chia.net/cats-beta-installers/Chia-arm64_latest_cats_beta.dmg" target="_blank"> macOS M1 </a></li>
+                    <li><a href="https://download.chia.net/cats-beta-installers/chia-blockchain_amd64_latest_cats_beta.deb" target="_blank"> Ubuntu/Debian </a></li>
+                    <li><a href="https://download.chia.net/cats-beta-installers/chia-blockchain_arm64_latest_cats_beta.deb" target="_blank"> Ubuntu/Debian ARM </a></li>
+                    <li><a href="https://download.chia.net/cats-beta-installers/chia-blockchain-1.x86_64_latest_cats_beta.rpm" target="_blank"> CentOS/Redhat </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="white-bg content-padding release-notes-options">
+    <div class="col-8-container">
+        <h2>{{ strings.download_title }}</h2>
+        <div id="releases-box" class="release-notes-grid">{{ strings.download_loading_message }}</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+fetch("https://api.github.com/repos/Chia-Network/chia-blockchain/releases").then(function(response) { return response.json(); }).then(function(jsonResult) {
+    document.getElementById("releases-box").innerHTML = jsonResult.map(function(release) {
+        var title = "Chia Blockchain " + release.name;
+        var date = new Date(release.published_at).toLocaleDateString('en-US', {year: "numeric", month: "long", day: "numeric"});
+        return (
+            '<div class="release">' +
+                '<a href="' + release.html_url + '" target="_blank" rel="noreferrer noopener">' + title + '</a>' +
+                '<div class="order-md-first float-md-right release-date">' + date + '</div>' +
+            '</div>'
+        )
+    }).join('\n');
+});
+</script>
