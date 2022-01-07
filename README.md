@@ -1,4 +1,4 @@
-Chia.net
+Happyfarm.win
 ========
 
 Website for the [Chia](https://www.chia.net/) cryptocurrency. Test.
