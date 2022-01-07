@@ -1,5 +1,5 @@
 ---
 layout: homemain
 lang: en
-title: Home - Chia Network
+title: 首页 - Happy Farm 加密农场
 ---

@@ -1,5 +1,5 @@
 ---
 layout: about
 lang: en
-title: About - Chia Network
+title: 关于 - Happy Farm
 ---

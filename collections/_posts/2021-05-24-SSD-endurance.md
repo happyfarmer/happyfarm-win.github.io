@@ -36,7 +36,7 @@ Macbooks that use the new Apple M1 chip saw users reporting accelerated SSD wear
 
 ## Questions or concerns, and note for SSD vendors
 
-Please reach out to Jonmichael Hands, VP of Storage Business Development, if you are an SSD vendor, partner, cloud provider, or have any Chia and storage use questions. Send and email to hello@chia.net to get connected.
+Please reach out to Jonmichael Hands, VP of Storage Business Development, if you are an SSD vendor, partner, cloud provider, or have any Chia and storage use questions. Send and email to hello@happyfarm.win to get connected.
 
 
 ```

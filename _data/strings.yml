@@ -50,14 +50,17 @@ en: # English
   download_centosfedora_button: "CentOS/Redhat"
   download_wsl2_button: "Install WSL2"
   download_amzlinux_button: "Install Amazon Linux"
-  about_title: "About Us"
+  about_title: "关于HappyFarm"
   about_description: |
-    Chia Network is building a better blockchain and smart transaction platform which is more secure, more sustainable, and more powerful.
-  
-    Support is also provided for Chia developers and the enterprise use of Chia through professional services and chia lending.
-  about_team_title: "Team"
+    HappyFarm 是加拿大第一个种植奇亚币（XCH）的加密农场[注1], 第一期位于BC省温哥华，首期空间算力100PiB+, 规划未来算力扩展到5EiB+。Chia奇亚币（代码:XCH）由全球最知名的分布式下载协议BitTorrent的发明人Bram Cohen带领顶级团队创建。旨在解决比特币的发明人中本聪先生在比特币中未完成和忽略的一些问题，比如节省能源、去中心化、企业安全级的智能可编程货币、合规等，真正的实现中本聪共识。
+    中本聪在早期发言中也公开表示过比特币的发明采用了BitTorrent的分布式网络技术。
+    
+    [注1]奇亚币XCH并没有沿用比特币BTC模拟的高耗能的的采矿和矿场过程，而是创造性的模拟了低能耗、可再生的农场种植过程，因此，奇亚币的生产场地命名为加密农场。
+   
+  about_team_title: "HappyFarm创始人"
   about_team_description: |
-    Chia Network was founded by the creator of BitTorrent, [Bram Cohen](https://www.linkedin.com/in/cohenbram/). It also includes executive leadership from the former founder and CEO of eMusic.com and Vindicia, [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). The Chia blockchain has an active open source developer community with many contributions to the codebase. Many individuals contribute towards the Chia blockchain in areas which include research, peer reviews, development, testing, documentation, and translation.
+    HappyFarm 由加拿大第一个比特币矿场的创建者顾峻诚建立。 顾峻诚于2012年接触比特币，2013年在加拿大曼尼托巴省的温尼伯市建立了加拿大第一个规模化加密货币矿场，并完成投资移民计划。
+    [Gene Hoffman](https://www.linkedin.com/in/gehoffman/). The Chia blockchain has an active open source developer community with many contributions to the codebase. Many individuals contribute towards the Chia blockchain in areas which include research, peer reviews, development, testing, documentation, and translation.
   about_invest_investors_title: "Our Investors"
   about_legal_title: "Legal"
   about_legal_copyright:  "Chia's Copyright Policy"
@@ -92,7 +95,7 @@ en: # English
 
     When you are authorized to use the Chia® brand and respect the Chia® brand guidelines, you help us ensure the strength of the brand, while protecting the entire community from being misled, confused or mistreated.
 
-    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at <a href='mailto:hello@chia.net' target='_blank'>hello@chia.net</a>.
+    Please read over the following guidelines carefully, and never hesitate to reach out with questions or permission requests at <a href='mailto:hello@happyfarm.win' target='_blank'>hello@happyfarm.win</a>.
 
     Happy Farming!
   terms_team_title: "Guidelines"
